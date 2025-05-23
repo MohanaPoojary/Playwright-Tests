@@ -9,7 +9,7 @@ test.describe("Home page", ()=> {
 
     await expect(page.getByRole("heading", {name: "Installation"})).toBeVisible()
   })
-
+// test nav
   test("check navigation", async({page})=>{
     await page.getByRole("link", {name: "Running Tests"}).click()
 
